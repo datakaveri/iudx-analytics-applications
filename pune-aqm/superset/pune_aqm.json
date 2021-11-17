@@ -1,0 +1,1039 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "Pune AQM",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 4}",
+                "position_json": "{\"CHART-129roHHqcy\":{\"children\":[],\"id\":\"CHART-129roHHqcy\",\"meta\":{\"chartId\":82,\"height\":50,\"sliceName\":\"Major Pollutant\",\"sliceNameOverride\":\"Major Pollutants\",\"uuid\":\"bb073d63-6293-4d05-bd0d-d584efbf401a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Hca-dv3yvN\"],\"type\":\"CHART\"},\"CHART-3Lj1iFABlZ\":{\"children\":[],\"id\":\"CHART-3Lj1iFABlZ\",\"meta\":{\"chartId\":90,\"height\":50,\"sliceName\":\"CO2 distribution (ppm)\",\"uuid\":\"d1fe0931-3b23-47b5-9536-a1365cd59feb\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-vnPniK8DGc\"],\"type\":\"CHART\"},\"CHART-5dlhLBxIa5\":{\"children\":[],\"id\":\"CHART-5dlhLBxIa5\",\"meta\":{\"chartId\":85,\"height\":50,\"sliceName\":\"PM10\",\"uuid\":\"cd9b7120-39a9-4c96-b773-553aa00bcf4a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Gp8iqj47E\"],\"type\":\"CHART\"},\"CHART-5sCzrN1hrQ\":{\"children\":[],\"id\":\"CHART-5sCzrN1hrQ\",\"meta\":{\"chartId\":79,\"height\":50,\"sliceName\":\"NO2\",\"uuid\":\"ebe0ea52-3521-477e-ac45-99a5180c98c9\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-2NmTceD4SY\"],\"type\":\"CHART\"},\"CHART-6W-EL9QWWj\":{\"children\":[],\"id\":\"CHART-6W-EL9QWWj\",\"meta\":{\"chartId\":77,\"height\":50,\"sliceName\":\"CO2 Calendar Heatmap\",\"uuid\":\"98812418-f81d-472f-8714-717a8a61b42c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-vnPniK8DGc\"],\"type\":\"CHART\"},\"CHART-A1UrYrgz-Z\":{\"children\":[],\"id\":\"CHART-A1UrYrgz-Z\",\"meta\":{\"chartId\":91,\"height\":50,\"sliceName\":\"PM10 distribution (ug/m3)\",\"uuid\":\"1686a6a7-5ae3-450a-8240-f934e4960d63\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Gp8iqj47E\"],\"type\":\"CHART\"},\"CHART-CsR7Xe8ZJn\":{\"children\":[],\"id\":\"CHART-CsR7Xe8ZJn\",\"meta\":{\"chartId\":93,\"height\":50,\"sliceName\":\"NO2 distribution (ppb)\",\"uuid\":\"1bea1399-2090-4678-a20b-0f4583344655\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-2NmTceD4SY\"],\"type\":\"CHART\"},\"CHART-M37CsnYPrZ\":{\"children\":[],\"id\":\"CHART-M37CsnYPrZ\",\"meta\":{\"chartId\":95,\"height\":50,\"sliceName\":\"CO distribution (ppm)\",\"uuid\":\"d7b2c30e-db32-424a-9662-23b60443122a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-2iwSHZ2Cyb\"],\"type\":\"CHART\"},\"CHART-SAtEaoTdyv\":{\"children\":[],\"id\":\"CHART-SAtEaoTdyv\",\"meta\":{\"chartId\":84,\"height\":50,\"sliceName\":\"Air Quality Level\",\"uuid\":\"f8e9ef1d-48c0-44b1-bbd4-08808fecefaa\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Hca-dv3yvN\"],\"type\":\"CHART\"},\"CHART-SnaGFrer0L\":{\"children\":[],\"id\":\"CHART-SnaGFrer0L\",\"meta\":{\"chartId\":100,\"height\":50,\"sliceName\":\"SO2 Calendar Heatmap\",\"uuid\":\"62c6390d-29a4-41eb-bee0-93d45d1aa2df\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-qh5CcLMxRt\"],\"type\":\"CHART\"},\"CHART-XOl6yCg1-t\":{\"children\":[],\"id\":\"CHART-XOl6yCg1-t\",\"meta\":{\"chartId\":97,\"height\":50,\"sliceName\":\"SO2\",\"uuid\":\"2ac2da89-c930-45c8-98e0-ae2eea18ba15\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-qh5CcLMxRt\"],\"type\":\"CHART\"},\"CHART-YEYV8RI_Uq\":{\"children\":[],\"id\":\"CHART-YEYV8RI_Uq\",\"meta\":{\"chartId\":98,\"height\":50,\"sliceName\":\"PM2.5\",\"uuid\":\"cd5c87a0-21e7-4ed7-bd44-77f8a013454a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-3_gIxdykK\"],\"type\":\"CHART\"},\"CHART-ZkX919JDOK\":{\"children\":[],\"id\":\"CHART-ZkX919JDOK\",\"meta\":{\"chartId\":83,\"height\":50,\"sliceName\":\"Air Quality Index map\",\"uuid\":\"9a157d37-2bc1-4f17-adbb-bf0b4b0f8d1c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Hca-dv3yvN\"],\"type\":\"CHART\"},\"CHART-eXGlF9XmYx\":{\"children\":[],\"id\":\"CHART-eXGlF9XmYx\",\"meta\":{\"chartId\":76,\"height\":50,\"sliceName\":\"CO2\",\"uuid\":\"340ce0ee-ba3d-4eb2-ba53-4617a34510f6\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-vnPniK8DGc\"],\"type\":\"CHART\"},\"CHART-fM3gJJtm7l\":{\"children\":[],\"id\":\"CHART-fM3gJJtm7l\",\"meta\":{\"chartId\":101,\"height\":50,\"sliceName\":\"PM2.5 Calendar Heatmap\",\"uuid\":\"6c8a0893-bf77-4518-b9c2-c070e5a8d0dd\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-3_gIxdykK\"],\"type\":\"CHART\"},\"CHART-kle2uPlzJV\":{\"children\":[],\"id\":\"CHART-kle2uPlzJV\",\"meta\":{\"chartId\":99,\"height\":50,\"sliceName\":\"CO Calendar Heatmap\",\"uuid\":\"5900256b-3dc8-4d1f-bb61-8af8882e0546\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-2iwSHZ2Cyb\"],\"type\":\"CHART\"},\"CHART-m6L5SOefoN\":{\"children\":[],\"id\":\"CHART-m6L5SOefoN\",\"meta\":{\"chartId\":87,\"height\":50,\"sliceName\":\"PM10 Calendar Heatmap\",\"sliceNameOverride\":\"PM10 Calendar Heatmap\",\"uuid\":\"7f685efc-2f5f-4b2b-b9ff-38ac0616b026\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Gp8iqj47E\"],\"type\":\"CHART\"},\"CHART-mjhs8RwweQ\":{\"children\":[],\"id\":\"CHART-mjhs8RwweQ\",\"meta\":{\"chartId\":94,\"height\":50,\"sliceName\":\"SO2 distribution (ppb)\",\"uuid\":\"e43d5ec4-ff1b-4e5d-90cd-8d208e38fb24\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-qh5CcLMxRt\"],\"type\":\"CHART\"},\"CHART-pwre0IutNN\":{\"children\":[],\"id\":\"CHART-pwre0IutNN\",\"meta\":{\"chartId\":96,\"height\":50,\"sliceName\":\"CO\",\"uuid\":\"75d318a9-0786-419d-a6c4-cae8265a4edd\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-2iwSHZ2Cyb\"],\"type\":\"CHART\"},\"CHART-uEvj8ZDF5C\":{\"children\":[],\"id\":\"CHART-uEvj8ZDF5C\",\"meta\":{\"chartId\":92,\"height\":50,\"sliceName\":\"PM2.5 distribution (ug/m3)\",\"uuid\":\"a01de187-e1e4-4568-a7a9-ff8564d8191c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-3_gIxdykK\"],\"type\":\"CHART\"},\"CHART-vdd6wWeqR9\":{\"children\":[],\"id\":\"CHART-vdd6wWeqR9\",\"meta\":{\"chartId\":80,\"height\":50,\"sliceName\":\"No2 Calendar Heatmap\",\"uuid\":\"aa134a4e-83fd-49b3-8674-2e5967ba659c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-2NmTceD4SY\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-DqvkR3ruOp\":{\"children\":[],\"id\":\"DIVIDER-DqvkR3ruOp\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-ZKdAcEw96R\":{\"children\":[],\"id\":\"DIVIDER-ZKdAcEw96R\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-p-JmWcCrzh\":{\"children\":[],\"id\":\"DIVIDER-p-JmWcCrzh\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-rVy203hgdd\":{\"children\":[],\"id\":\"DIVIDER-rVy203hgdd\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-saTvkVOHTh\":{\"children\":[],\"id\":\"DIVIDER-saTvkVOHTh\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-wDlQUAGdkT\":{\"children\":[],\"id\":\"DIVIDER-wDlQUAGdkT\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"ROW-Hca-dv3yvN\",\"DIVIDER-p-JmWcCrzh\",\"ROW-vnPniK8DGc\",\"DIVIDER-DqvkR3ruOp\",\"ROW-2NmTceD4SY\",\"DIVIDER-wDlQUAGdkT\",\"ROW-Gp8iqj47E\",\"DIVIDER-rVy203hgdd\",\"ROW-3_gIxdykK\",\"DIVIDER-ZKdAcEw96R\",\"ROW-qh5CcLMxRt\",\"DIVIDER-saTvkVOHTh\",\"ROW-2iwSHZ2Cyb\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Pune AQM\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-2NmTceD4SY\":{\"children\":[\"CHART-5sCzrN1hrQ\",\"CHART-CsR7Xe8ZJn\",\"CHART-vdd6wWeqR9\"],\"id\":\"ROW-2NmTceD4SY\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-2iwSHZ2Cyb\":{\"children\":[\"CHART-pwre0IutNN\",\"CHART-M37CsnYPrZ\",\"CHART-kle2uPlzJV\"],\"id\":\"ROW-2iwSHZ2Cyb\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-3_gIxdykK\":{\"children\":[\"CHART-YEYV8RI_Uq\",\"CHART-uEvj8ZDF5C\",\"CHART-fM3gJJtm7l\"],\"id\":\"ROW-3_gIxdykK\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-Gp8iqj47E\":{\"children\":[\"CHART-5dlhLBxIa5\",\"CHART-A1UrYrgz-Z\",\"CHART-m6L5SOefoN\"],\"id\":\"ROW-Gp8iqj47E\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-Hca-dv3yvN\":{\"children\":[\"CHART-SAtEaoTdyv\",\"CHART-ZkX919JDOK\",\"CHART-129roHHqcy\"],\"id\":\"ROW-Hca-dv3yvN\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-qh5CcLMxRt\":{\"children\":[\"CHART-XOl6yCg1-t\",\"CHART-mjhs8RwweQ\",\"CHART-SnaGFrer0L\"],\"id\":\"ROW-qh5CcLMxRt\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-vnPniK8DGc\":{\"children\":[\"CHART-eXGlF9XmYx\",\"CHART-3Lj1iFABlZ\",\"CHART-6W-EL9QWWj\"],\"id\":\"ROW-vnPniK8DGc\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 76,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"47__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"co2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 435, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(co2)\", \"optionName\": \"metric_aj7kngrl0jn_qz9b7nzg2v\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1M\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 76, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "CO2",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 77,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_size\": 10, \"datasource\": \"47__table\", \"domain_granularity\": \"day\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"linear_color_scheme\": \"oranges\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"co2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 435, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(co2)\", \"optionName\": \"metric_bi8oyqnt3ch_d71jv2g3t2\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"slice_id\": 77, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 77, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "CO2 Calendar Heatmap",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 79,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"47__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"no2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 440, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(no2)\", \"optionName\": \"metric_kniwvpr3ovi_wq8w1wq38ip\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1M\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 79, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "NO2",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 80,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_size\": 10, \"datasource\": \"47__table\", \"domain_granularity\": \"day\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"linear_color_scheme\": \"schemeOranges\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"no2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 440, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(no2)\", \"optionName\": \"metric_gn19cshp7m7_j2shmncvegj\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 80, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "No2 Calendar Heatmap",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 82,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"47__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"label_colors\": {}, \"metric\": {\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"aqiMajorPollutant\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 432, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VARCHAR\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(aqiMajorPollutant)\", \"optionName\": \"metric_6afxbi45tkr_rd7kfwgki9\", \"sqlExpression\": null}, \"rotation\": \"square\", \"row_limit\": 10000, \"series\": \"aqiMajorPollutant\", \"size_from\": 10, \"size_to\": 70, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -24, hour) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"word_cloud\", \"remote_id\": 82, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Major Pollutant",
+                            "viz_type": "word_cloud"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 83,
+                            "params": "{\"adhoc_filters\": [], \"autozoom\": true, \"color_picker\": {\"a\": 1, \"b\": 45, \"g\": 199, \"r\": 67}, \"color_scheme\": \"supersetColors\", \"datasource\": \"47__table\", \"extra_form_data\": {}, \"filter_nulls\": true, \"granularity\": null, \"granularity_sqla\": \"observationDateTime\", \"js_columns\": [], \"label_colors\": {}, \"legend_format\": [\"SMART_NUMBER\", \"Adaptative formating\"], \"legend_position\": \"tr\", \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\", \"max_radius\": 250, \"min_radius\": 2, \"multiplier\": 1, \"point_radius_fixed\": {\"type\": \"metric\", \"value\": {\"aggregate\": \"MIN\", \"column\": {\"column_name\": \"airQualityIndex\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 431, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VARCHAR\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MIN(airQualityIndex)\", \"optionName\": \"metric_y4dhx5khar8_7z84wwbksvd\", \"sqlExpression\": null}}, \"point_unit\": \"radius_m\", \"row_limit\": 10000, \"spatial\": {\"latCol\": \"latitude\", \"lonCol\": \"longitude\", \"type\": \"latlong\"}, \"time_grain_sqla\": null, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -30, minute) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport\": {\"bearing\": 0, \"latitude\": 31.222656842808707, \"longitude\": 6.85236157047845, \"pitch\": 0, \"zoom\": 1}, \"viz_type\": \"deck_scatter\", \"remote_id\": 83, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Air Quality Index map",
+                            "viz_type": "deck_scatter"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 84,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"47__table\", \"date_format\": \"smart_date\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"groupby\": [\"airQualityLevel\"], \"innerRadius\": 30, \"label_type\": \"key\", \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 70, \"row_limit\": 100, \"show_labels\": true, \"show_labels_threshold\": 1, \"show_legend\": true, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -30, minute) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 84, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Air Quality Level",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 85,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"47__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"pm10\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 442, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(pm10)\", \"optionName\": \"metric_3qosmgpcu75_fsukm6crtct\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1M\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 85, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "PM10",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 87,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_size\": 10, \"datasource\": \"47__table\", \"domain_granularity\": \"day\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"linear_color_scheme\": \"schemeYlOrBr\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"pm10\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 442, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(pm10)\", \"optionName\": \"metric_5kfa1val674_b46a854nn5g\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 87, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "PM10 Calendar Heatmap",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.latest_pollutant_hexes",
+                            "datasource_type": "table",
+                            "id": 90,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"co2\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_4aiwh52ky2s_z8cu6xbimid\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"pollutant\"}], \"autozoom\": true, \"datasource\": \"49__table\", \"extra_form_data\": {}, \"extruded\": false, \"fill_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"filled\": true, \"filter_nulls\": true, \"granularity_sqla\": \"observationdatetime\", \"js_columns\": [], \"legend_format\": \"~g\", \"legend_position\": null, \"line_column\": \"coodinates\", \"line_type\": \"json\", \"line_width\": 10, \"linear_color_scheme\": \"schemeYlOrRd\", \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\", \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"weight\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 458, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(weight)\", \"optionName\": \"metric_0fx24tz02e4t_y0fps8b3s1h\", \"sqlExpression\": null}, \"multiplier\": 1, \"num_buckets\": null, \"opacity\": 70, \"point_radius_fixed\": {\"type\": \"fix\", \"value\": \"100000\"}, \"row_limit\": 10000, \"slice_id\": 90, \"stroke_color_picker\": {\"a\": 1, \"b\": 0, \"g\": 5, \"r\": 135}, \"stroked\": false, \"time_range\": \"today : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"toggle_polygons\": true, \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": 0, \"height\": 668, \"latitude\": 18.518816369722988, \"longitude\": 73.84570771114194, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0, \"position\": [0, 0, 0], \"width\": 1249, \"zoom\": 11.568994982384325}, \"viz_type\": \"deck_polygon\", \"remote_id\": 90, \"datasource_name\": \"latest_pollutant_hexes\", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "CO2 distribution (ppm)",
+                            "viz_type": "deck_polygon"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.latest_pollutant_hexes",
+                            "datasource_type": "table",
+                            "id": 91,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"pm10\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_zb4wn5o115a_xo96bl5km4b\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"pollutant\"}], \"autozoom\": true, \"datasource\": \"49__table\", \"extra_form_data\": {}, \"extruded\": false, \"fill_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"filled\": true, \"filter_nulls\": true, \"granularity_sqla\": \"observationdatetime\", \"js_columns\": [], \"legend_format\": \"~g\", \"legend_position\": null, \"line_column\": \"coodinates\", \"line_type\": \"json\", \"line_width\": 10, \"linear_color_scheme\": \"schemeYlOrRd\", \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\", \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"weight\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 458, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(weight)\", \"optionName\": \"metric_uejs0akz7gg_7p7760ev3b\", \"sqlExpression\": null}, \"multiplier\": 1, \"num_buckets\": null, \"opacity\": 70, \"point_radius_fixed\": {\"type\": \"fix\", \"value\": 1000}, \"row_limit\": 10000, \"slice_id\": 91, \"stroke_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"time_range\": \"today : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"toggle_polygons\": true, \"url_params\": {}, \"viewport\": {\"bearing\": 0, \"latitude\": 31.222656842808707, \"longitude\": 6.85236157047845, \"pitch\": 0, \"zoom\": 1}, \"viz_type\": \"deck_polygon\", \"remote_id\": 91, \"datasource_name\": \"latest_pollutant_hexes\", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "PM10 distribution (ug/m3)",
+                            "viz_type": "deck_polygon"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.latest_pollutant_hexes",
+                            "datasource_type": "table",
+                            "id": 92,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"pm2p5\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_zb4wn5o115a_xo96bl5km4b\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"pollutant\"}], \"autozoom\": true, \"datasource\": \"49__table\", \"extra_form_data\": {}, \"extruded\": false, \"fill_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"filled\": true, \"filter_nulls\": true, \"granularity_sqla\": \"observationdatetime\", \"js_columns\": [], \"legend_format\": \"~g\", \"legend_position\": null, \"line_column\": \"coodinates\", \"line_type\": \"json\", \"line_width\": 10, \"linear_color_scheme\": \"schemeYlOrRd\", \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\", \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"weight\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 458, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(weight)\", \"optionName\": \"metric_uejs0akz7gg_7p7760ev3b\", \"sqlExpression\": null}, \"multiplier\": 1, \"num_buckets\": null, \"opacity\": 70, \"point_radius_fixed\": {\"type\": \"fix\", \"value\": 1000}, \"row_limit\": 10000, \"slice_id\": 92, \"stroke_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"time_range\": \"today : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"toggle_polygons\": true, \"url_params\": {}, \"viewport\": {\"bearing\": 0, \"latitude\": 31.222656842808707, \"longitude\": 6.85236157047845, \"pitch\": 0, \"zoom\": 1}, \"viz_type\": \"deck_polygon\", \"remote_id\": 92, \"datasource_name\": \"latest_pollutant_hexes\", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "PM2.5 distribution (ug/m3)",
+                            "viz_type": "deck_polygon"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.latest_pollutant_hexes",
+                            "datasource_type": "table",
+                            "id": 93,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"no2\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_zb4wn5o115a_xo96bl5km4b\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"pollutant\"}], \"autozoom\": true, \"datasource\": \"49__table\", \"extra_form_data\": {}, \"extruded\": false, \"fill_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"filled\": true, \"filter_nulls\": true, \"granularity_sqla\": \"observationdatetime\", \"js_columns\": [], \"legend_format\": \"~g\", \"legend_position\": null, \"line_column\": \"coodinates\", \"line_type\": \"json\", \"line_width\": 10, \"linear_color_scheme\": \"schemeYlOrRd\", \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\", \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"weight\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 458, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(weight)\", \"optionName\": \"metric_uejs0akz7gg_7p7760ev3b\", \"sqlExpression\": null}, \"multiplier\": 1, \"num_buckets\": null, \"opacity\": 70, \"point_radius_fixed\": {\"type\": \"fix\", \"value\": 1000}, \"row_limit\": 10000, \"slice_id\": 93, \"stroke_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"time_range\": \"today : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"toggle_polygons\": true, \"url_params\": {}, \"viewport\": {\"bearing\": 0, \"latitude\": 31.222656842808707, \"longitude\": 6.85236157047845, \"pitch\": 0, \"zoom\": 1}, \"viz_type\": \"deck_polygon\", \"remote_id\": 93, \"datasource_name\": \"latest_pollutant_hexes\", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "NO2 distribution (ppb)",
+                            "viz_type": "deck_polygon"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.latest_pollutant_hexes",
+                            "datasource_type": "table",
+                            "id": 94,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"so2\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_zb4wn5o115a_xo96bl5km4b\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"pollutant\"}], \"autozoom\": true, \"datasource\": \"49__table\", \"extra_form_data\": {}, \"extruded\": false, \"fill_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"filled\": true, \"filter_nulls\": true, \"granularity_sqla\": \"observationdatetime\", \"js_columns\": [], \"legend_format\": \"~g\", \"legend_position\": null, \"line_column\": \"coodinates\", \"line_type\": \"json\", \"line_width\": 10, \"linear_color_scheme\": \"schemeYlOrRd\", \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\", \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"weight\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 458, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(weight)\", \"optionName\": \"metric_uejs0akz7gg_7p7760ev3b\", \"sqlExpression\": null}, \"multiplier\": 1, \"num_buckets\": null, \"opacity\": 70, \"point_radius_fixed\": {\"type\": \"fix\", \"value\": 1000}, \"row_limit\": 10000, \"slice_id\": 94, \"stroke_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"time_range\": \"today : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"toggle_polygons\": true, \"url_params\": {}, \"viewport\": {\"bearing\": 0, \"latitude\": 31.222656842808707, \"longitude\": 6.85236157047845, \"pitch\": 0, \"zoom\": 1}, \"viz_type\": \"deck_polygon\", \"remote_id\": 94, \"datasource_name\": \"latest_pollutant_hexes\", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "SO2 distribution (ppb)",
+                            "viz_type": "deck_polygon"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.latest_pollutant_hexes",
+                            "datasource_type": "table",
+                            "id": 95,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"co\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_zb4wn5o115a_xo96bl5km4b\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"pollutant\"}], \"autozoom\": true, \"datasource\": \"49__table\", \"extra_form_data\": {}, \"extruded\": false, \"fill_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"filled\": true, \"filter_nulls\": true, \"granularity_sqla\": \"observationdatetime\", \"js_columns\": [], \"legend_format\": \"~g\", \"legend_position\": null, \"line_column\": \"coodinates\", \"line_type\": \"json\", \"line_width\": 10, \"linear_color_scheme\": \"schemeYlOrRd\", \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\", \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"weight\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 458, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(weight)\", \"optionName\": \"metric_uejs0akz7gg_7p7760ev3b\", \"sqlExpression\": null}, \"multiplier\": 1, \"num_buckets\": null, \"opacity\": 70, \"point_radius_fixed\": {\"type\": \"fix\", \"value\": 1000}, \"row_limit\": 10000, \"slice_id\": 95, \"stroke_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"time_range\": \"today : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"toggle_polygons\": true, \"url_params\": {}, \"viewport\": {\"bearing\": 0, \"latitude\": 31.222656842808707, \"longitude\": 6.85236157047845, \"pitch\": 0, \"zoom\": 1}, \"viz_type\": \"deck_polygon\", \"remote_id\": 95, \"datasource_name\": \"latest_pollutant_hexes\", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "CO distribution (ppm)",
+                            "viz_type": "deck_polygon"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 96,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"47__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"co\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 441, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(co)\", \"optionName\": \"metric_3qosmgpcu75_fsukm6crtct\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1M\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 96, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "CO",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 97,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"47__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"so2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 444, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(so2)\", \"optionName\": \"metric_3qosmgpcu75_fsukm6crtct\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1M\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 97, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "SO2",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 98,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"47__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"pm2p5\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 436, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(pm2p5)\", \"optionName\": \"metric_3qosmgpcu75_fsukm6crtct\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1M\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 98, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "PM2.5",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 99,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_size\": 10, \"datasource\": \"47__table\", \"domain_granularity\": \"day\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"linear_color_scheme\": \"schemeYlOrRd\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"co\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 441, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(co)\", \"optionName\": \"metric_bi8oyqnt3ch_d71jv2g3t2\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 99, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "CO Calendar Heatmap",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 100,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_size\": 10, \"datasource\": \"47__table\", \"domain_granularity\": \"day\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"linear_color_scheme\": \"schemeYlOrRd\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"so2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 444, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(so2)\", \"optionName\": \"metric_bi8oyqnt3ch_d71jv2g3t2\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 100, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "SO2 Calendar Heatmap",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "null.inner_join_aqm_and_sensors ",
+                            "datasource_type": "table",
+                            "id": 101,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_size\": 10, \"datasource\": \"47__table\", \"domain_granularity\": \"day\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationDateTime\", \"linear_color_scheme\": \"schemeYlOrRd\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"pm2p5\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 436, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(pm2p5)\", \"optionName\": \"metric_bi8oyqnt3ch_d71jv2g3t2\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -7, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 101, \"datasource_name\": \"inner_join_aqm_and_sensors \", \"schema\": \"null\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "PM2.5 Calendar Heatmap",
+                            "viz_type": "cal_heatmap"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 454,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 49,
+                            "type": "VARCHAR",
+                            "uuid": "07be86c9-2c5c-4a7c-a253-a474048ba898",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "column_name": "observationdatetime",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 455,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 49,
+                            "type": "TIMESTAMP",
+                            "uuid": "6c91f2bb-4083-43ce-b9cd-11c19e2d5538",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "column_name": "pollutant",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 456,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 49,
+                            "type": "VARCHAR",
+                            "uuid": "f86150ae-5b45-4afb-9a3c-22fa0d38af3c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "column_name": "coodinates",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 457,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 49,
+                            "type": "VARCHAR",
+                            "uuid": "cc39c54a-942a-4855-934d-9acf43cf370a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "column_name": "weight",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 458,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 49,
+                            "type": "DOUBLE",
+                            "uuid": "a5825a48-1287-4fde-b83b-d78923efd5cf",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-15T13:13:00"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 49,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 49,
+                            "uuid": "e791a495-7034-46b6-b7e6-7ea06941b923",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 49, \"database_name\": \"ITMS\"}",
+                "schema": "null",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\r\nSELECT * FROM default.pune_pollutants_contours live WHERE observationDateTime in (SELECT MAX(observationDateTime) from default.pune_pollutants_contours live)\r\n-- where observationdatetime >=  ((date_add('minute', 330, localtimestamp)) - interval '1' hour)",
+                "table_name": "latest_pollutant_hexes",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 426,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "VARCHAR",
+                            "uuid": "6a6105f6-20c4-414a-a746-46fc8a313f84",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "airQualityLevel",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 427,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "VARCHAR",
+                            "uuid": "e61840d5-42ab-47f3-87f9-f5003f0d8c2d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "deviceStatus",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 428,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "VARCHAR",
+                            "uuid": "012b1702-29ad-4bfc-9321-ca493b15e7c2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 429,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "VARCHAR",
+                            "uuid": "cee023a2-96cd-492a-a5ac-3b82bf1f820a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "observationDateTime",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 430,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "TIMESTAMP",
+                            "uuid": "07061693-0527-45c1-9c3c-b81134f9133b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "airQualityIndex",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 431,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "VARCHAR",
+                            "uuid": "fcbea4f2-3d3a-40c9-8b86-b8937777e257",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "aqiMajorPollutant",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 432,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "VARCHAR",
+                            "uuid": "ea397817-0cf1-4864-b43e-82f9773427eb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "relativeHumidity",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 433,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "e35335ae-fbb2-4842-9446-7f4b79d92a27",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "atmosphericPressure",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 434,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "3e1a350b-9ab9-4e88-a00b-c5f521ac370c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "co2",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 435,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "0645d263-c502-4528-ab85-fd763df1d557",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "pm2p5",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 436,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "cb5b1f80-8f36-4b01-95ff-55746574852b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "uv",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 437,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "107cfc62-e0a6-4b01-b3aa-cffa20eb547b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "o3",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 438,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "196cea78-d44a-4a7e-8513-d60da3564e8c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "airTemperature",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 439,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "7a9bf1d8-38d2-4d38-8229-d0702eb18910",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "no2",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 440,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "188e7a94-54b0-437f-b2e8-437242fa0dea",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "co",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 441,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "8f215c09-b14e-4b2c-a334-139a18c2fb14",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "pm10",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 442,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "85ef9b18-d820-4d03-a729-c2f5e49506df",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "illuminance",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 443,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "d3d583b6-88c3-4f9d-883b-9b48c002528e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "so2",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 444,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "857235ec-9d77-44bf-a00d-3f5af6507b30",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "ambientNoise",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 445,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "6f7ba49b-745d-40a3-beed-82dc3976d53c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 446,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "1c499f66-7abf-4cbd-bc6b-5d0e4aaf4013",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 447,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "DOUBLE",
+                            "uuid": "9f87317e-3022-4a2c-be33-91d7bdd35af8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "column_name": "address",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 448,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 47,
+                            "type": "VARCHAR",
+                            "uuid": "f5135a66-67af-4edf-b02f-86e7ae88c822",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-11-09T16:04:11"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 47,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 47,
+                            "uuid": "10c1bf1f-50cb-47ca-8b21-282aef829e8c",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 47, \"database_name\": \"ITMS\"}",
+                "schema": "null",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\r\nSELECT primary_key,airQualityLevel,deviceStatus, live.id, observationDateTime, airQualityIndex, aqiMajorPollutant, relativeHumidity, atmosphericPressure, co2, pm2p5, uv, o3, airTemperature, no2, co, pm10, illuminance, so2, ambientNoise, latitude, longitude, address\r\nFROM default.pune_aqm_live live inner join default.pune_sensor_coordinates sensors on live.id=sensors.id\r\n-- where observationdatetime >=  ((date_add('minute', 330, localtimestamp)) - interval '1' hour)",
+                "table_name": "inner_join_aqm_and_sensors ",
+                "template_params": null
+            }
+        }
+    ]
+}
