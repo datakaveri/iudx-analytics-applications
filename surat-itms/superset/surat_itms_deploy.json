@@ -1,0 +1,2667 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "SURAT ITMS Analytics",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 5}",
+                "position_json": "{\"CHART--xt3HrWbQj\":{\"children\":[],\"id\":\"CHART--xt3HrWbQj\",\"meta\":{\"chartId\":59,\"height\":21,\"sliceName\":\"Live Trips with Deviation\",\"uuid\":\"66734d57-5916-4ae7-8225-6e9ece2ccfb0\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-NfoQ06yWeR\"],\"type\":\"CHART\"},\"CHART-LHbRUna2e9\":{\"children\":[],\"id\":\"CHART-LHbRUna2e9\",\"meta\":{\"chartId\":71,\"height\":70,\"sliceName\":\"Regions without bus coverage\",\"uuid\":\"6c2a0e8f-2493-4a21-9c32-5edc2b690b56\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-RxxZCIcpPo\"],\"type\":\"CHART\"},\"CHART-Lqu2ZPjm6s\":{\"children\":[],\"id\":\"CHART-Lqu2ZPjm6s\",\"meta\":{\"chartId\":54,\"height\":41,\"sliceName\":\"Vehicles with Faulty Trackers\",\"uuid\":\"67f3db0e-7358-4e95-b451-18e013974a43\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-l_VJkBG7N2\"],\"type\":\"CHART\"},\"CHART-RHcHF3QgPB\":{\"children\":[],\"id\":\"CHART-RHcHF3QgPB\",\"meta\":{\"chartId\":67,\"height\":50,\"sliceName\":\"Trip Summary (Today so far, updated every 15 minutes)\",\"uuid\":\"105008b8-4b50-4b1f-8c1b-4ef2dac2dca4\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-nyVzbiyO4Z\"],\"type\":\"CHART\"},\"CHART-RHj5cxWlPL\":{\"children\":[],\"id\":\"CHART-RHj5cxWlPL\",\"meta\":{\"chartId\":3,\"height\":50,\"sliceName\":\"itms1.a. - Completed trips with delay (in minutes)\",\"uuid\":\"fe9d8db0-39da-405f-bc90-90f8af197c10\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-X3T6OwhBTd\"],\"type\":\"CHART\"},\"CHART-RcSc_SlMnx\":{\"children\":[],\"id\":\"CHART-RcSc_SlMnx\",\"meta\":{\"chartId\":56,\"height\":50,\"sliceName\":\"Trips status over time (Hourly line)\",\"uuid\":\"efe38719-ca2f-4b0b-b900-ea11db040ee8\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-nyVzbiyO4Z\"],\"type\":\"CHART\"},\"CHART-WyG_2rQvd-\":{\"children\":[],\"id\":\"CHART-WyG_2rQvd-\",\"meta\":{\"chartId\":62,\"height\":49,\"sliceName\":\"Buses with a Potential Network Issue over Time\",\"uuid\":\"1b752622-d8e2-4b46-ae32-c3a9aed12fa5\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-93-TZHG83Z\"],\"type\":\"CHART\"},\"CHART-YkAzzAC7ug\":{\"children\":[],\"id\":\"CHART-YkAzzAC7ug\",\"meta\":{\"chartId\":5,\"height\":50,\"sliceName\":\"itms1.b. - Live trips running late with delay (in minutes)\",\"uuid\":\"6cbdfcd1-8e1f-4c48-8b0b-49231b19ea0a\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-X3T6OwhBTd\"],\"type\":\"CHART\"},\"CHART-dPRharg0dc\":{\"children\":[],\"id\":\"CHART-dPRharg0dc\",\"meta\":{\"chartId\":37,\"height\":49,\"sliceName\":\"Network issue and severity (Normalized between 1(satisfactory) to 5(poor)\",\"uuid\":\"52a96699-6b80-4dc6-be7f-42e371e3b4f2\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-93-TZHG83Z\"],\"type\":\"CHART\"},\"CHART-e01C4MJixH\":{\"children\":[],\"id\":\"CHART-e01C4MJixH\",\"meta\":{\"chartId\":39,\"height\":47,\"sliceName\":\"Traffic Delays in excess to regular trends (in minutes)\",\"uuid\":\"007f11fc-5373-440d-a358-a2cc12204e00\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-nruFJ-2S0u\"],\"type\":\"CHART\"},\"CHART-gOxaXujsB4\":{\"children\":[],\"id\":\"CHART-gOxaXujsB4\",\"meta\":{\"chartId\":50,\"height\":41,\"sliceName\":\"Number of Vehicles with Faulty Trackers\",\"uuid\":\"911694cd-6bbd-4af8-bdab-e67b1aa1c696\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-l_VJkBG7N2\"],\"type\":\"CHART\"},\"CHART-mIdR37Ss7_\":{\"children\":[],\"id\":\"CHART-mIdR37Ss7_\",\"meta\":{\"chartId\":45,\"height\":47,\"sliceName\":\"Buses delayed due to traffic\",\"uuid\":\"045e41fa-f71b-47e1-837b-1865c994be39\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-nruFJ-2S0u\"],\"type\":\"CHART\"},\"CHART-sn_MCm-Mas\":{\"children\":[],\"id\":\"CHART-sn_MCm-Mas\",\"meta\":{\"chartId\":55,\"height\":41,\"sliceName\":\"Vehicles with Good Trackers\",\"uuid\":\"2b0f25d4-a9f9-4d73-8635-48cea4d28449\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-l_VJkBG7N2\"],\"type\":\"CHART\"},\"CHART-tw_QusaSbF\":{\"children\":[],\"id\":\"CHART-tw_QusaSbF\",\"meta\":{\"chartId\":60,\"height\":21,\"sliceName\":\"Completed Trips with Deviation\",\"uuid\":\"fd8c56fd-58a1-4b91-a255-a60143d3f4b6\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-NfoQ06yWeR\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"HEADER-5xsmBA-SLI\",\"ROW-nyVzbiyO4Z\",\"HEADER-JCgG6g55hH\",\"ROW-X3T6OwhBTd\",\"HEADER-OKG_uoLYgQ\",\"ROW-NfoQ06yWeR\",\"HEADER-2xSswLhiKn\",\"ROW-93-TZHG83Z\",\"HEADER-goqENwYU5I\",\"ROW-nruFJ-2S0u\",\"HEADER-3tQaELNzJI\",\"ROW-l_VJkBG7N2\",\"HEADER-bTlOsDMCi6\",\"ROW-RxxZCIcpPo\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-2xSswLhiKn\":{\"children\":[],\"id\":\"HEADER-2xSswLhiKn\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Network Analysis\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-3tQaELNzJI\":{\"children\":[],\"id\":\"HEADER-3tQaELNzJI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Tracker Status\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-5xsmBA-SLI\":{\"children\":[],\"id\":\"HEADER-5xsmBA-SLI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Introduction\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-JCgG6g55hH\":{\"children\":[],\"id\":\"HEADER-JCgG6g55hH\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Delayed Trips\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-OKG_uoLYgQ\":{\"children\":[],\"id\":\"HEADER-OKG_uoLYgQ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Deviated Trips\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-bTlOsDMCi6\":{\"children\":[],\"id\":\"HEADER-bTlOsDMCi6\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Bus Coverage\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-goqENwYU5I\":{\"children\":[],\"id\":\"HEADER-goqENwYU5I\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Traffic Analysis\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"SURAT ITMS Analytics\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-93-TZHG83Z\":{\"children\":[\"CHART-WyG_2rQvd-\",\"CHART-dPRharg0dc\"],\"id\":\"ROW-93-TZHG83Z\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-NfoQ06yWeR\":{\"children\":[\"CHART--xt3HrWbQj\",\"CHART-tw_QusaSbF\"],\"id\":\"ROW-NfoQ06yWeR\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-RxxZCIcpPo\":{\"children\":[\"CHART-LHbRUna2e9\"],\"id\":\"ROW-RxxZCIcpPo\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-X3T6OwhBTd\":{\"children\":[\"CHART-YkAzzAC7ug\",\"CHART-RHj5cxWlPL\"],\"id\":\"ROW-X3T6OwhBTd\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-l_VJkBG7N2\":{\"children\":[\"CHART-Lqu2ZPjm6s\",\"CHART-gOxaXujsB4\",\"CHART-sn_MCm-Mas\"],\"id\":\"ROW-l_VJkBG7N2\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-nruFJ-2S0u\":{\"children\":[\"CHART-mIdR37Ss7_\",\"CHART-e01C4MJixH\"],\"id\":\"ROW-nruFJ-2S0u\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-nyVzbiyO4Z\":{\"children\":[\"CHART-RcSc_SlMnx\",\"CHART-RHcHF3QgPB\"],\"id\":\"ROW-nyVzbiyO4Z\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.completed_trip_with_delay",
+                            "datasource_type": "table",
+                            "id": 3,
+                            "params": "{\"adhoc_filters\": [], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"5__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observe_time\", \"groupby\": [\"trip_id\"], \"include_search\": true, \"include_time\": false, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(trip_delay/60)\", \"optionName\": \"metric_oytvmuf9e9r_skx6z4t1urk\", \"sqlExpression\": \"AVG(trip_delay/60)\"}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": null, \"server_page_length\": 10, \"server_pagination\": true, \"show_cell_bars\": true, \"show_totals\": false, \"slice_id\": 3, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"PT1H\", \"time_range\": \"today : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"trip_delay\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 25, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(trip_delay)\", \"optionName\": \"metric_93k3iycfqv_upmr0ezrhp\", \"sqlExpression\": null}, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 3, \"datasource_name\": \"completed_trip_with_delay\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "itms1.a. - Completed trips with delay (in minutes)",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.live_trip_with_delay",
+                            "datasource_type": "table",
+                            "id": 5,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"column_config\": {\"AVG(trip_delay)\": {\"colorPositiveNegative\": false, \"horizontalAlign\": \"right\"}}, \"datasource\": \"6__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observe_time\", \"groupby\": [\"trip_id\"], \"include_search\": true, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(trip_delay/60)\", \"optionName\": \"metric_ikur1pris4_t6k664n7h1g\", \"sqlExpression\": \"AVG(trip_delay/60)\"}], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": null, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": null, \"server_page_length\": 10, \"server_pagination\": true, \"show_cell_bars\": true, \"slice_id\": 5, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"PT1H\", \"time_range\": \"today : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"trip_delay\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 27, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(trip_delay)\", \"optionName\": \"metric_ej95i1srow7_kem1oeqrlep\", \"sqlExpression\": null}, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 5, \"datasource_name\": \"live_trip_with_delay\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "itms1.b. - Live trips running late with delay (in minutes)",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.network_issue_regions",
+                            "datasource_type": "table",
+                            "id": 37,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"24__table\", \"deck_slices\": [36, 38], \"extra_form_data\": {}, \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"slice_id\": 37, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": 0, \"height\": 505, \"latitude\": 21.219547018973632, \"longitude\": 72.82403206432804, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0, \"position\": [0, 0, 0], \"width\": 1009, \"zoom\": 11.287401868564002}, \"viz_type\": \"deck_multi\", \"remote_id\": 37, \"datasource_name\": \"network_issue_regions\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Network issue and severity (Normalized between 1(satisfactory) to 5(poor)",
+                            "viz_type": "deck_multi"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.traffic_delay",
+                            "datasource_type": "table",
+                            "id": 39,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"0\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_w4nyx5vk4fh_vpdi6ft2we\", \"isExtra\": false, \"isNew\": false, \"operator\": \">\", \"sqlExpression\": null, \"subject\": \"delay\"}], \"autozoom\": true, \"break_points\": [\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"15\"], \"datasource\": \"25__table\", \"extra_form_data\": {}, \"extruded\": false, \"fill_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"filled\": true, \"filter_nulls\": true, \"granularity_sqla\": \"observationdatetime\", \"js_columns\": [], \"legend_format\": \"~g\", \"legend_position\": \"tr\", \"line_column\": \"geojson\", \"line_type\": \"json\", \"line_width\": 10, \"linear_color_scheme\": \"echarts_gradient\", \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(delay)/60\", \"optionName\": \"metric_xzwxe3jnfa_53f5lexo2qy\", \"sqlExpression\": \"AVG(delay)/60\"}, \"multiplier\": 1, \"num_buckets\": 5, \"opacity\": 54, \"point_radius_fixed\": {\"type\": \"fix\", \"value\": 1000}, \"row_limit\": 50000, \"slice_id\": 39, \"stroke_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"stroked\": false, \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -1, hour) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"toggle_polygons\": false, \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": 0, \"height\": 397, \"latitude\": 21.180764078988414, \"longitude\": 72.78243027414014, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0, \"position\": [0, 0, 0], \"width\": 1009, \"zoom\": 9.813118230047861}, \"viz_type\": \"deck_polygon\", \"remote_id\": 39, \"datasource_name\": \"traffic_delay\", \"schema\": \"default\", \"database_name\": \"trino\"}",
+                            "slice_name": "Traffic Delays in excess to regular trends (in minutes)",
+                            "viz_type": "deck_polygon"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.traffic_delay",
+                            "datasource_type": "table",
+                            "id": 45,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"25__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationdatetime\", \"groupby\": [], \"label_colors\": {}, \"limit\": null, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"license_plate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 234, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VARCHAR\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(license_plate)\", \"optionName\": \"metric_n2e2f1716cd_68nfv8zjvmi\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 45, \"stacked_style\": \"stack\", \"time_grain_sqla\": \"PT1H\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -3, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Observe Time\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 45, \"datasource_name\": \"traffic_delay\", \"schema\": \"default\", \"database_name\": \"trino\"}",
+                            "slice_name": "Buses delayed due to traffic",
+                            "viz_type": "area"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.vehicles_with_faulty_trackers",
+                            "datasource_type": "table",
+                            "id": 50,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_bkhz1ldnsat_ci733nn44c8\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"is_faulty = True\", \"subject\": null}], \"datasource\": \"42__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observed_time\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"license_plate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 350, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VARCHAR\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(license_plate)\", \"optionName\": \"metric_ogih49amxk_2toj841vwt1\", \"sqlExpression\": null}, \"slice_id\": 50, \"subheader_font_size\": 0.15, \"time_range\": \"datetime(\\\"today\\\") : datetime(\\\"now\\\")\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 50, \"datasource_name\": \"vehicles_with_faulty_trackers\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Number of Vehicles with Faulty Trackers",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.vehicles_with_faulty_trackers",
+                            "datasource_type": "table",
+                            "id": 54,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_l87uezituqc_wi77zl7zw1o\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"is_faulty=True\", \"subject\": null}], \"all_columns\": [\"license_plate\"], \"color_pn\": true, \"datasource\": \"42__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observed_time\", \"groupby\": [], \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"slice_id\": 54, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"PT1H\", \"time_range\": \"datetime(\\\"today\\\") : datetime(\\\"now\\\")\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 54, \"datasource_name\": \"vehicles_with_faulty_trackers\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Vehicles with Faulty Trackers",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.vehicles_with_faulty_trackers",
+                            "datasource_type": "table",
+                            "id": 55,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_jij9zodyqn_ggyyy1fgmmh\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"is_faulty = False\", \"subject\": null}], \"all_columns\": [\"license_plate\"], \"color_pn\": true, \"datasource\": \"42__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observed_time\", \"groupby\": [], \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 250, \"server_page_length\": 10, \"show_cell_bars\": true, \"slice_id\": 55, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"PT1H\", \"time_range\": \"datetime(\\\"today\\\") : datetime(\\\"now\\\")\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 55, \"datasource_name\": \"vehicles_with_faulty_trackers\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Vehicles with Good Trackers",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.trip_status",
+                            "datasource_type": "table",
+                            "id": 56,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"area\": true, \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"18__table\", \"extra_form_data\": {}, \"forecastEnabled\": false, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"last_stop_arrival_time\", \"groupby\": [\"status\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": null, \"logAxis\": false, \"markerEnabled\": true, \"markerSize\": 9, \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"trip_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 180, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"STRING\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(trip_id)\", \"optionName\": \"metric_a1lyfxor54_vutlw8q79h\", \"sqlExpression\": null}], \"opacity\": 0.1, \"order_desc\": false, \"rich_tooltip\": true, \"row_limit\": null, \"seriesType\": \"line\", \"show_legend\": true, \"slice_id\": 56, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"DATEADD(DATETIME(\\\"now\\\"), -1, day) : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"xAxisShowMinLabel\": false, \"x_axis_time_format\": \"smart_date\", \"yAxisTitle\": \"Trips Count\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 56, \"datasource_name\": \"trip_status\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Trips status over time (Hourly line)",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.live_trip_with_deviation",
+                            "datasource_type": "table",
+                            "id": 59,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"30__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observe_time\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"license_plate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 284, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VARCHAR\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(license_plate)\", \"optionName\": \"metric_ilfjhd0eaco_jmshxij6dsf\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"slice_id\": 59, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"DATETIME(\\\"today\\\") : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 59, \"datasource_name\": \"live_trip_with_deviation\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Live Trips with Deviation",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.completed_trip_with_deviation",
+                            "datasource_type": "table",
+                            "id": 60,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"31__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observe_time\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"license_plate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 294, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VARCHAR\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(license_plate)\", \"optionName\": \"metric_6p5pzsn4tb4_be9q7ncbycd\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"slice_id\": 60, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"DATETIME(\\\"today\\\") : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 60, \"datasource_name\": \"completed_trip_with_deviation\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Completed Trips with Deviation",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.Query default.buses_with_network_issues 10/04/2021 14:06:52",
+                            "datasource_type": "table",
+                            "id": 62,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"33__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"observationdatetime\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"license_plate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 312, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VARCHAR\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(license_plate)\", \"optionName\": \"metric_lu7d7nbuo1_n2911li6ka\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"slice_id\": 62, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1M\", \"time_range\": \"DATETIME(\\\"today\\\") : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 62, \"datasource_name\": \"Query default.buses_with_network_issues 10/04/2021 14:06:52\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Buses with a Potential Network Issue over Time",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.trip_status_live",
+                            "datasource_type": "table",
+                            "id": 67,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"googleCategory10c\", \"datasource\": \"34__table\", \"date_format\": \"smart_date\", \"donut\": true, \"extra_form_data\": {}, \"granularity_sqla\": \"observe_time\", \"groupby\": [\"status\"], \"innerRadius\": 33, \"label_line\": true, \"label_type\": \"key\", \"labels_outside\": true, \"legendMargin\": \"\", \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": {\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"trip_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 314, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VARCHAR\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(trip_id)\", \"optionName\": \"metric_vdjhn648j3e_xhcycpa5mt\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 70, \"row_limit\": null, \"show_labels\": true, \"show_labels_threshold\": \"0\", \"show_legend\": true, \"slice_id\": 67, \"sort_by_metric\": true, \"time_range\": \"datetime(\\\"today\\\") : datetime(\\\"now\\\")\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 67, \"datasource_name\": \"trip_status_live\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Trip Summary (Today so far, updated every 15 minutes)",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "default.surat_hex",
+                            "datasource_type": "table",
+                            "id": 71,
+                            "params": "{\"adhoc_filters\": [], \"autozoom\": false, \"break_points\": [\"0\", \"1\", \"100000000\"], \"datasource\": \"39__table\", \"extra_form_data\": {}, \"extruded\": true, \"fill_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"filled\": true, \"filter_nulls\": true, \"granularity_sqla\": \"observationdatetime\", \"js_columns\": [], \"legend_format\": \"~g\", \"legend_position\": \"tr\", \"line_column\": \"coordinates\", \"line_type\": \"json\", \"line_width\": 10, \"linear_color_scheme\": \"schemeRdYlGn\", \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"count\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 339, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INTEGER\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(count)\", \"optionName\": \"metric_km3d9yu70un_n4a26sldinf\", \"sqlExpression\": null}, \"multiplier\": 1, \"num_buckets\": 10, \"opacity\": 51, \"point_radius_fixed\": {\"type\": \"metric\", \"value\": null}, \"row_limit\": 50000, \"slice_id\": 71, \"stroke_color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"stroked\": true, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"toggle_polygons\": true, \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": 0, \"height\": 684, \"latitude\": 21.164187990122294, \"longitude\": 72.92324054801296, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0, \"position\": [0, 0, 0], \"transitionDuration\": 0, \"width\": 1217, \"zoom\": 10.172261970191125}, \"viz_type\": \"deck_polygon\", \"remote_id\": 71, \"datasource_name\": \"surat_hex\", \"schema\": \"default\", \"database_name\": \"ITMS\"}",
+                            "slice_name": "Regions without bus coverage",
+                            "viz_type": "deck_polygon"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-10T20:07:05"
+                            },
+                            "column_name": "trip_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-10T06:30:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 24,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "STRING",
+                            "uuid": "8f65a63a-a171-4bd7-836a-74008655c648",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-10T20:07:05"
+                            },
+                            "column_name": "trip_delay",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-10T06:30:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 25,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "FLOAT",
+                            "uuid": "6a600327-1cf6-4d8f-b8cd-a3523674041c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-10T20:08:28"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-10T20:07:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 85,
+                            "is_active": null,
+                            "is_dttm": null,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "STRING",
+                            "uuid": "76611821-fb94-4f53-b504-2e1e671df41d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-11T16:32:46"
+                            },
+                            "column_name": "observe_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T16:32:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 174,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "TIMESTAMP",
+                            "uuid": "affc5c8f-4888-49a7-9e42-af4a966df422",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-11T16:32:46"
+                            },
+                            "column_name": "license_plate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T16:32:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 175,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "STRING",
+                            "uuid": "ca709453-f439-450f-a1c3-b506e02f6cac",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-10T20:07:05"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-10T06:30:34"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{\"warning_markdown\":null}",
+                            "id": 5,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 5,
+                            "uuid": "68cb8e92-680d-493b-9504-9499b9ab4805",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 5, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": "",
+                "table_name": "completed_trip_with_delay",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-10T20:05:59"
+                            },
+                            "column_name": "trip_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-10T06:30:41"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 26,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "STRING",
+                            "uuid": "d220cf8b-527e-4c4b-82ce-8772722e4c22",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-10T20:05:59"
+                            },
+                            "column_name": "trip_delay",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-10T06:30:41"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 27,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "FLOAT",
+                            "uuid": "a4cacc65-132e-4d1a-bf26-2de1b823d53c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-11T16:18:58"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-10T20:05:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 84,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "STRING",
+                            "uuid": "319bfc03-f717-4809-aa71-c0d78466bef8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-11T16:18:58"
+                            },
+                            "column_name": "observe_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T16:18:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 172,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "TIMESTAMP",
+                            "uuid": "b8401f79-1112-42ea-a2d7-fda279d22030",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-11T16:18:58"
+                            },
+                            "column_name": "license_plate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T16:18:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 173,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "STRING",
+                            "uuid": "ac63a0ab-af17-4395-96a0-23b4961ea357",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-10T20:05:58"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-10T06:30:41"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{\"warning_markdown\":null}",
+                            "id": 6,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 6,
+                            "uuid": "3ac79f5b-d9b7-45a0-95d2-09613fff0222",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 6, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": "",
+                "table_name": "live_trip_with_delay",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "column_name": "h3",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 337,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "VARCHAR",
+                            "uuid": "c4fb2988-1338-4ef5-8b05-ff9e8cc0489a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "column_name": "observationdatetime",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 338,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "TIMESTAMP",
+                            "uuid": "1cd948ca-0661-47d2-8e27-b0f3beafa3de",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "column_name": "count",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 339,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "INTEGER",
+                            "uuid": "97209c5b-9c75-46f1-b471-b365a5b6e601",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "column_name": "coordinates",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 340,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "VARCHAR",
+                            "uuid": "01eea175-87eb-4130-86fe-3e77ed928db3",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "observationdatetime",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-05T09:37:57"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 39,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 39,
+                            "uuid": "b7394474-851f-46e0-bda5-46ac40dff170",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 39, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": null,
+                "table_name": "surat_hex",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:06:15"
+                            },
+                            "column_name": "observationdatetime",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:00:39"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 218,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "TIMESTAMP",
+                            "uuid": "e5dbfee6-bef8-4bd5-a436-0282f83f3e3f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 229,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "VARCHAR",
+                            "uuid": "e0893e05-14da-4381-b16e-e684eac6389a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "trip_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 230,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "VARCHAR",
+                            "uuid": "952bab34-bcfb-41e7-8664-fe9b785be953",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "route_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 231,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "VARCHAR",
+                            "uuid": "61938f0e-9def-44b0-8d12-725e8edcde6b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "trip_direction",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 232,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "VARCHAR",
+                            "uuid": "e5ff09f3-0a92-4a6c-94c5-18c2bb351f85",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "h3",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 233,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "VARCHAR",
+                            "uuid": "0bfe0481-f421-4d88-8664-9ce270ee03d0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "license_plate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 234,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "VARCHAR",
+                            "uuid": "2e4fe816-7571-4e00-9451-32e6deadbe19",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "dwell_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 235,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "REAL",
+                            "uuid": "a39f71f5-b4b7-43a1-84fb-1632fd73fdeb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "time_slot",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 236,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "VARCHAR",
+                            "uuid": "0826a87f-4a02-4319-a36a-e5a4e2b1b75b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "predicted_dwell_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 237,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "REAL",
+                            "uuid": "525f89c7-154e-4c3b-ab3c-f9997f2a292c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:53:03"
+                            },
+                            "column_name": "delay",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:26:21"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 238,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "REAL",
+                            "uuid": "5c35f2c8-3178-4804-bba2-187ed7726cf6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T13:23:20"
+                            },
+                            "column_name": "geojson",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T16:18:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 241,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "VARCHAR",
+                            "uuid": "f81445fe-cb49-4859-8eb9-3cf257b8487d",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "observationdatetime",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T16:07:05"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-30T15:00:39"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{\"warning_markdown\":null}",
+                            "id": 25,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 25,
+                            "uuid": "49d49096-6ab5-4874-97ea-ccce019664f8",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 25, \"database_name\": \"trino\"}",
+                "schema": "default",
+                "sql": "",
+                "table_name": "traffic_delay",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 347,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 42,
+                            "type": "VARCHAR",
+                            "uuid": "bfac5c0c-a9f4-483e-b0ed-21166cf7afd5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "column_name": "observed_time",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 348,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 42,
+                            "type": "TIMESTAMP",
+                            "uuid": "e81a1c03-5c3b-496b-94c3-75b38263baae",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "column_name": "trip_id",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 349,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 42,
+                            "type": "VARCHAR",
+                            "uuid": "e72d6eda-4b5c-4059-b3e1-bf534d0f1fab",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "column_name": "license_plate",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 350,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 42,
+                            "type": "VARCHAR",
+                            "uuid": "cec58d94-b4e5-4152-a06a-ccdb125f8f7e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "column_name": "not_faulty_count",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 351,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 42,
+                            "type": "INTEGER",
+                            "uuid": "1f30ad23-74ce-4f95-bd22-62c901a7b65b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "column_name": "faulty_count",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 352,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 42,
+                            "type": "INTEGER",
+                            "uuid": "26082cef-d68d-4380-ba89-953554e78a67",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "column_name": "is_faulty",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 353,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 42,
+                            "type": "BOOLEAN",
+                            "uuid": "57a8e812-fd20-47c2-a1e8-731a6f4b8428",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "observed_time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-13T11:02:47"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 42,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 42,
+                            "uuid": "cb3bfa2d-22d2-4734-9cb5-ac66bb59baf6",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 42, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": null,
+                "table_name": "vehicles_with_faulty_trackers",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 313,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 34,
+                            "type": "VARCHAR",
+                            "uuid": "144fd5b6-03fd-4c58-bebe-c87045ac5af9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "column_name": "trip_id",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 314,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 34,
+                            "type": "VARCHAR",
+                            "uuid": "691082e9-1b59-4aa6-88e3-c2b19ab20609",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "column_name": "status",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 315,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 34,
+                            "type": "VARCHAR",
+                            "uuid": "71b0175a-1119-46e5-9a86-f6e5cb305ede",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "column_name": "trip_time",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 316,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 34,
+                            "type": "REAL",
+                            "uuid": "e7d809d5-ec32-476a-8a05-4fbe25be5863",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "column_name": "observe_time",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 317,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 34,
+                            "type": "TIMESTAMP",
+                            "uuid": "0cda5327-4ada-442e-86aa-e664460aa2e4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "column_name": "last_stop_arrival_time",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 318,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 34,
+                            "type": "TIMESTAMP",
+                            "uuid": "c4f1c5c2-8bc5-4d6d-80ad-97f5f8a9354e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 319,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 34,
+                            "type": "REAL",
+                            "uuid": "98569c33-d1a0-4581-b053-d94fc2605368",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 320,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 34,
+                            "type": "REAL",
+                            "uuid": "7c80e19d-fdc6-458a-9956-ac19cdf54efa",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "observe_time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:36:12"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 34,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 34,
+                            "uuid": "fff768bc-cf13-44df-b45c-aeb73848a2ce",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 34, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": null,
+                "table_name": "trip_status_live",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:04:46"
+                            },
+                            "column_name": "observationdatetime",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:04:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 311,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TIMESTAMP",
+                            "uuid": "a6dd758d-db6c-4d85-9f56-deb9ee27357d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:04:46"
+                            },
+                            "column_name": "license_plate",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:04:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 312,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "VARCHAR",
+                            "uuid": "16312c67-1393-4d91-ac94-e4aa6f8e6111",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-10-04T14:04:46"
+                            },
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-10-04T14:04:46"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 33,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 33,
+                            "uuid": "424687dc-4ea2-41b9-9e85-3459863249e3",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 33, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": "SELECT DISTINCT observationdatetime, license_plate\r\nFROM default.surat_itms_live live inner join default.network_issue_regions network on live.route_id=network.route_id \r\n-- where observationdatetime >=  ((date_add('minute', 330, localtimestamp)) - interval '1' hour)",
+                "table_name": "Query default.buses_with_network_issues 10/04/2021 14:06:52",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T09:24:03"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 179,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "VARCHAR",
+                            "uuid": "f6816803-f5ca-4a5c-a5ed-a8cd349b2366",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T09:24:03"
+                            },
+                            "column_name": "trip_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 180,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "VARCHAR",
+                            "uuid": "5bf5e951-2a46-437d-a686-b2fafa5a66f2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T09:24:03"
+                            },
+                            "column_name": "status",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 181,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "VARCHAR",
+                            "uuid": "c6d78704-7acd-449f-9383-f401a4760928",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T09:24:03"
+                            },
+                            "column_name": "trip_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 182,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "REAL",
+                            "uuid": "54c49787-01e0-4ae7-9d1c-bcac6da8eeb3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-16T08:32:30"
+                            },
+                            "column_name": "observe_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 183,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TIMESTAMP",
+                            "uuid": "8d25f80f-f624-46f0-b8c7-426c7b8ffb3e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-16T08:32:30"
+                            },
+                            "column_name": "last_stop_arrival_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 184,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TIMESTAMP",
+                            "uuid": "7eb36b17-78d6-41a0-a20e-ba3c24f121fb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T09:24:03"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 185,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "REAL",
+                            "uuid": "4e328f2c-e437-4bba-b59d-94bfd655cf01",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T09:24:03"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 186,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "REAL",
+                            "uuid": "122b1df6-d98a-42b6-89e5-a1ccf9ebcfc8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T09:24:03"
+                            },
+                            "column_name": "license_plate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 187,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "VARCHAR",
+                            "uuid": "a8330575-acc5-4eef-a365-c15779619fe4",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "observe_time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-31T09:24:03"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-11T17:04:37"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{}",
+                            "id": 18,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 18,
+                            "uuid": "38c7c844-6cc9-45a6-b57b-b40a5bf8ef52",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 18, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": "",
+                "table_name": "trip_status",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T17:37:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 209,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "21a800a6-30cb-4e57-bce9-353a2dcde321",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "column_name": "route_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T17:37:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 210,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "2b8dd78b-b3c9-462f-830e-2c8db99a410c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T17:37:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 211,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "REAL",
+                            "uuid": "395c497a-bfa2-4ed4-a5c5-048d8439308d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T17:37:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 212,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "REAL",
+                            "uuid": "96fbc876-30d3-4fec-92ef-1b229543b177",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "column_name": "weight",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T17:37:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 213,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "INTEGER",
+                            "uuid": "074ce728-9817-47c4-91e2-5da8a10f25c9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "column_name": "h3",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T17:37:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 214,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "a9ac1a15-fe54-4a27-baab-f757ba3b981e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "column_name": "polygon",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T17:37:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 215,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "645f68c3-c0c4-4edc-ad72-c06b5f22a87b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "column_name": "coordinates",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T21:50:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 216,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "854cf955-5149-40c2-83db-6ae96bd36067",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-08-30T15:24:16"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-08-18T17:37:46"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{\"warning_markdown\":null}",
+                            "id": 24,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 24,
+                            "uuid": "86ff3c2a-99eb-46df-bd7a-eccb216897ed",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 24, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": "",
+                "table_name": "network_issue_regions",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 275,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "VARCHAR",
+                            "uuid": "9fbad83e-9937-4d2d-8925-007817c45b7b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "observe_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 276,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "TIMESTAMP",
+                            "uuid": "41d95c9c-1a8c-47f1-b7ca-26898f3e7511",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "trip_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 277,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "VARCHAR",
+                            "uuid": "a1ef7c98-a146-4410-9da3-db9f7f48ae9a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "eta_stops",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 278,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "VARCHAR",
+                            "uuid": "b326e1ea-3b9a-4e67-8f96-e4f00e766195",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "sch_stops",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 279,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "VARCHAR",
+                            "uuid": "a7d95c30-28b1-4beb-ac69-94f4e4c33699",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "eta_stops_count",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 280,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INTEGER",
+                            "uuid": "c9d21e1b-c69e-4188-bbf0-a54b45522d55",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "sch_stops_count",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 281,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INTEGER",
+                            "uuid": "1c8eae26-b740-489b-9a6c-ad56d21b8bf5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "common_stops",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 282,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "VARCHAR",
+                            "uuid": "1f992e76-81ca-4454-b574-f10b52e7716a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "common_stops_count",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 283,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INTEGER",
+                            "uuid": "585773d9-50e6-41de-b85c-c98b72aee26b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "column_name": "license_plate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 284,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "VARCHAR",
+                            "uuid": "e1c21aef-1b2f-45f1-b03e-610ebbc7c618",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "observe_time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T11:01:51"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 30,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 30,
+                            "uuid": "58e808dc-bba1-4383-b06b-6458dae0784c",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 30, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": null,
+                "table_name": "live_trip_with_deviation",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "primary_key",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 285,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "VARCHAR",
+                            "uuid": "42946e8b-f2b1-4f2b-aa89-cecacb28c44f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "observe_time",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 286,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "TIMESTAMP",
+                            "uuid": "3b153849-c386-4f1b-8846-7e3e54a3cd8f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "trip_id",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 287,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "VARCHAR",
+                            "uuid": "4328ad69-a334-4674-b8f7-fbad3609391e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "eta_stops",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 288,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "VARCHAR",
+                            "uuid": "15f85699-e6ba-484a-b818-4c555b708c85",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "sch_stops",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 289,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "VARCHAR",
+                            "uuid": "ef1b1ea1-6029-43e0-866b-27af11708abd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "eta_stops_count",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 290,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "INTEGER",
+                            "uuid": "d523eba5-b89b-4539-856a-3282ea9d80c2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "sch_stops_count",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 291,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "INTEGER",
+                            "uuid": "d50803c4-8603-4875-a975-e8b2b2b1522b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "common_stops",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 292,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "VARCHAR",
+                            "uuid": "5b2421ef-4fa7-4db5-a027-ad2178644d88",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "common_stops_count",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 293,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "INTEGER",
+                            "uuid": "8a87657e-b45a-41e6-9a08-e1392887482b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "column_name": "license_plate",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 294,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "VARCHAR",
+                            "uuid": "288124ae-5ef4-4e39-b8a4-d54079191db9",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "observe_time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-09-29T14:01:15"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 31,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 31,
+                            "uuid": "ea5d5453-a389-4b6f-aee1-b99c815a698b",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 31, \"database_name\": \"ITMS\"}",
+                "schema": "default",
+                "sql": null,
+                "table_name": "completed_trip_with_deviation",
+                "template_params": null
+            }
+        }
+    ]
+}
