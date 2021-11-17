@@ -67,7 +67,7 @@ faultDetectionUDF = f.udf(lambda time_to_message: faultDetection(time_to_message
 
 eta_trip_route = eta_trip_route.withColumn("fault", faultDetectionUDF(f.col("time_to_message")))
 
-eta_trip_route = eta_trip_route.groupBy('trip_id','vehicle_label').agg(
+eta_trip_route = eta_trip_route.groupBy('trip_id','license_plate').agg(
     f.count(f.when(f.col("fault") == 0, True)).alias("not_faulty_count"),
     f.count(f.when(f.col("fault") == 1, True)).alias("faulty_count"))
 

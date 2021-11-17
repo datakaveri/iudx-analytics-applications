@@ -228,15 +228,23 @@ merged_df = merged_df.withColumn("primary_key", getPrimaryKeyUDF(f.col("trip_id"
 """# Filter out Last One Hour Data"""
 
 
-merged_df = merged_df[merged_df["last_stop_arrival_time"]>=trim_epoch*1000000]
+merged_df1 = merged_df[merged_df["last_stop_arrival_time"]>=trim_epoch*1000000]
 
 """# Push to Kudu"""
 
 
-merged_df.write.format('org.apache.kudu.spark.kudu')\
+merged_df1.write.format('org.apache.kudu.spark.kudu')\
 .option('kudu.master', "kudu-master:7051") \
 .mode('append') \
 .option('kudu.table', "trip_status")\
+.save()
+
+
+merged_df = merged_df.withColumn("primary_key",f.concat(f.col("trip_id").cast("String"),f.current_date().cast("String")))
+merged_df.write.format('org.apache.kudu.spark.kudu')\
+.option('kudu.master', "kudu-master:7051") \
+.mode('append') \
+.option('kudu.table', "trip_status_live")\
 .save()
 
 """# Get Completed Trips"""
@@ -261,6 +269,9 @@ completed_trips_median = completed_trips_median.withColumn("observe_time",f.curr
                      .withColumn("observe_time", f.col('observe_time') + f.expr('INTERVAL 5 HOURS 30 MINUTES'))\
                      .withColumn("observe_time",f.col("observe_time").cast("long"))\
                      .withColumn("observe_time",f.col("observe_time")*1000000)
+
+completed_trips_median = completed_trips_median.withColumn("primary_key", getPrimaryKeyUDF(f.col("trip_id")))
+
 
 """# Push to Kudu"""
 
@@ -295,6 +306,7 @@ live_trips_median = live_trips_median.withColumn("observe_time",f.current_timest
                      .withColumn("observe_time", f.col('observe_time') + f.expr('INTERVAL 5 HOURS 30 MINUTES'))\
                      .withColumn("observe_time",f.col("observe_time").cast("long"))\
                      .withColumn("observe_time",f.col("observe_time")*1000000)
+live_trips_median = live_trips_median.withColumn("primary_key", getPrimaryKeyUDF(f.col("trip_id")))
 
 """# Push to Kudu"""
 
@@ -331,6 +343,8 @@ completed_trips_with_deviation = completed_trips_with_deviation.join(eta_max_min
 completed_trips_with_deviation = completed_trips_with_deviation.withColumn("primary_key",f.concat(f.col("trip_id").cast("String"),f.current_date().cast("String")))\
                                                 .withColumn("trip_id",f.col("trip_id").cast("String"))
 
+completed_trips_with_deviation = completed_trips_with_deviation.withColumn("primary_key", getPrimaryKeyUDF(f.col("trip_id")))
+
 """# Push to Kudu"""
 
 
@@ -365,6 +379,9 @@ live_trips_with_deviation = live_trips_with_deviation.join(eta_max_min,"trip_id"
 live_trips_with_deviation = live_trips_with_deviation.withColumn("primary_key",f.concat(f.col("trip_id").cast("String"),f.current_date().cast("String")))\
                                                 .withColumn("trip_id",f.col("trip_id").cast("String"))
 
+live_trips_with_deviation = live_trips_with_deviation.withColumn("primary_key", getPrimaryKeyUDF(f.col("trip_id")))
+
+
 """# Push to Kudu"""
 
 
@@ -376,4 +393,4 @@ live_trips_with_deviation.write.format('org.apache.kudu.spark.kudu')\
 
 
 print("=="*50)
-print("Final Done")
+print("Done")

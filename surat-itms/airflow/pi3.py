@@ -42,7 +42,7 @@ with DAG(
     'Traffic_Delay',
     default_args=default_args,
     description='Surat ITMS Bus Traffic Delay',
-    schedule_interval="*/15 1-17 * * *",
+    schedule_interval="30 1-17 * * *",
     start_date=datetime(2021, 8, 30),
     tags=['surat','itms','sp2','segmentation', 'traffic_delay'],
 ) as dag:
