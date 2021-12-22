@@ -63,8 +63,8 @@ sch = sch.dropna()
 """# Add Timezone Offset to Schedules Data"""
 
 
-sch = sch.withColumn('arrival_time', f.col('arrival_time') + f.expr('INTERVAL 5 HOURS 30 MINUTES'))\
-    .withColumn('departure_time', f.col('departure_time') + f.expr('INTERVAL 5 HOURS 30 MINUTES'))
+# sch = sch.withColumn('arrival_time', f.col('arrival_time') + f.expr('INTERVAL 5 HOURS 30 MINUTES'))\
+#     .withColumn('departure_time', f.col('departure_time') + f.expr('INTERVAL 5 HOURS 30 MINUTES'))
 
 """# Convert Timestamp columns to UNIX Timestamp (Epoch) format"""
 

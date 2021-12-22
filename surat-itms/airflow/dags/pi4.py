@@ -39,11 +39,11 @@ default_args = {
 
 # [START instantiate_dag]
 with DAG(
-    'Traffic_Delay',
+    'Train_Traffic_Delay',
     default_args=default_args,
-    description='Surat ITMS Bus Traffic Delay',
-    schedule_interval="30 1-17 * * *",
-    start_date=datetime(2021, 8, 30),
-    tags=['surat','itms','sp2','segmentation', 'traffic_delay'],
+    description='Surat ITMS Bus Traffic Delay Train Model',
+    schedule_interval="0 8 * * SUN",
+    start_date=datetime(2021, 12, 9),
+    tags=['surat','itms','sp2','segmentation', 'train_traffic_delay'],
 ) as dag:
-    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/traffic_delay.py", task_id="traffic_delay", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)
+    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/train_traffic_delay_2.py", task_id="train_traffic_delay", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)

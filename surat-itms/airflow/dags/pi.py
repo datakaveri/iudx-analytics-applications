@@ -8,9 +8,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator   
 from airflow.utils.dates import days_ago
 
-# [END import_module]
-
-# [START default_args]
+# [END import_module] surat_itms_job_2.py
 # These args will get passed on to each operator
 # You can override them on a per-task basis during operator initialization
 default_args = {
@@ -21,15 +19,12 @@ default_args = {
     #'email_on_retry': False,
     'retries': 0
 }
-# [END default_args]
-
-# [START instantiate_dag]
 with DAG(
-    'Surat_Trip_Schedules',
+    'Surat_ITMS_Trips',
     default_args=default_args,
-    description='Surat Schedules data',
-    schedule_interval="30 1 * * *",
-    start_date=datetime(2021, 11, 16),
+    description='Surat ITMS data',
+    schedule_interval="*/15 1-17 * * *",
+    start_date=datetime(2021, 12, 9),
     tags=['surat','itms','sp1'],
 ) as dag:
-    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/surat_schedules.py", task_id="submit_job", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)
+    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/surat_itms_job_2.py", task_id="submit_job", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)

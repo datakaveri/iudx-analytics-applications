@@ -25,11 +25,11 @@ default_args = {
 
 # [START instantiate_dag]
 with DAG(
-    'Surat_Hex',
+    'Surat_Trip_Schedules',
     default_args=default_args,
-    description='Surat ITMS data',
-    schedule_interval="0 8 * * SUN",
-    start_date=datetime(2021, 10, 5),
-    tags=['surat','hex'],
+    description='Surat Schedules data',
+    schedule_interval="35 00 * * *",
+    start_date=datetime(2021, 12, 10),
+    tags=['surat','itms','sp1'],
 ) as dag:
-    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/surat_hex.py", task_id="surat_hex", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)
+    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/surat_schedules_2.py", task_id="submit_job", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)

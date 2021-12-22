@@ -39,11 +39,11 @@ default_args = {
 
 # [START instantiate_dag]
 with DAG(
-    'Surat_ITMS_Scheduled_Stops',
+    'Network_Issues',
     default_args=default_args,
-    description='Surat ITMS data',
-    schedule_interval="30 1 * * *",
-    start_date=datetime(2021, 8, 11),
-    tags=['surat','itms','sp1','schedules'],
+    description='Surat ITMS Bus Network Issues',
+    schedule_interval="0 7 * * SUN",
+    start_date=datetime(2021, 12, 9),
+    tags=['surat','itms','sp2','segmentation', 'network_issues'],
 ) as dag:
-    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/push_scheduled_stops.py", task_id="push_scheduled_stops", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)
+    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/network_issues_2.py", task_id="network_issues", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)

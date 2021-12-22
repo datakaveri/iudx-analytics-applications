@@ -1,3 +1,4 @@
+absl-py==0.15.0
 adal==1.2.7
 alembic==1.6.5
 amqp==2.6.1
@@ -27,6 +28,7 @@ apache-airflow-providers-ssh==2.0.0
 apispec==3.3.2
 appdirs==1.4.4
 argcomplete==1.12.3
+astunparse==1.6.3
 async-generator==1.10
 attrs==20.3.0
 azure-batch==10.0.0
@@ -64,6 +66,7 @@ celery==4.4.7
 certifi==2020.12.5
 cffi==1.14.5
 chardet==3.0.4
+clang==5.0
 click==7.1.2
 click-plugins==1.1.1
 clickclick==20.10.2
@@ -77,6 +80,7 @@ croniter==1.0.13
 cryptography==3.4.7
 dask==2021.3.0
 dataclasses==0.8
+decorator==4.4.2
 defusedxml==0.7.1
 dill==0.3.1.1
 distlib==0.3.2
@@ -100,7 +104,9 @@ Flask-Login==0.4.1
 Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.14.3
+flatbuffers==1.12
 flower==0.9.7
+gast==0.4.0
 geopandas==0.9.0
 gevent==21.1.2
 google-ads==4.0.0
@@ -140,6 +146,7 @@ google-cloud-videointelligence==1.16.1
 google-cloud-vision==1.0.0
 google-cloud-workflows==1.1.0
 google-crc32c==1.1.2
+google-pasta==0.2.0
 google-resumable-media==1.3.1
 googleapis-common-protos==1.53.0
 graphviz==0.16
@@ -152,6 +159,7 @@ h11==0.12.0
 h3==3.7.3
 h3pandas==0.2.2
 h3py==1.0.0
+h5py==3.1.0
 HeapDict==1.0.1
 httpcore==0.13.6
 httplib2==0.19.1
@@ -171,12 +179,15 @@ jmespath==0.10.0
 joblib==1.0.1
 json-merge-patch==0.2
 jsonschema==3.2.0
+keras==2.6.0
+Keras-Preprocessing==1.1.2
 kombu==4.6.11
 kubernetes==11.0.0
 lazy-object-proxy==1.4.3
 ldap3==2.9
 libcst==0.3.19
 lockfile==0.12.2
+lxml==4.6.4
 Mako==1.1.4
 Markdown==3.3.4
 MarkupSafe==1.1.1
@@ -194,10 +205,12 @@ munch==2.5.0
 mypy-extensions==0.4.3
 mysql-connector-python==8.0.22
 mysqlclient==2.0.3
+networkx==2.5.1
 numpy==1.19.5
 oauthlib==2.1.0
 openapi-schema-validator==0.1.5
 openapi-spec-validator==0.3.1
+opt-einsum==3.3.0
 packaging==20.9
 pandas==1.1.5
 pandas-gbq==0.14.1
@@ -249,10 +262,11 @@ scipy==1.5.4
 sendgrid==6.7.1
 setproctitle==1.2.2
 Shapely==1.7.1
-six==1.16.0
+six==1.15.0
 slack-sdk==3.7.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
+spektral==1.0.8
 SQLAlchemy==1.3.24
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.7
@@ -263,11 +277,17 @@ swagger-ui-bundle==0.0.8
 tabulate==0.8.9
 tblib==1.7.0
 tenacity==6.2.0
+tensorboard==2.6.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.6.1
+tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 threadpoolctl==2.2.0
 toolz==0.11.1
 tornado==6.1
+tqdm==4.62.3
 typing==3.7.4.3
 typing-extensions==3.7.4.3
 typing-inspect==0.7.1
@@ -279,6 +299,7 @@ virtualenv==20.4.7
 watchtower==1.0.6
 websocket-client==1.1.0
 Werkzeug==1.0.1
+wrapt==1.12.1
 WTForms==2.3.3
 zict==2.0.0
 zipp==3.4.1
