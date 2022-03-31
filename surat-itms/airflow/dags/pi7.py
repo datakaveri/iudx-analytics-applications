@@ -28,8 +28,8 @@ with DAG(
     'Surat_ITMS_Predictions',
     default_args=default_args,
     description='Surat ITMS Predictions',
-    schedule_interval="45 1-16 * * *",
-    start_date=datetime(2021, 12, 9),
+    schedule_interval="30 1-16 * * *",
+    start_date=datetime(2022, 2, 24),
     tags=['surat','itms','predictions'],
 ) as dag:
     submit_job = SparkSubmitOperator(application="/opt/airflow/dags/traffic_prediction.py", task_id="submit_job", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)

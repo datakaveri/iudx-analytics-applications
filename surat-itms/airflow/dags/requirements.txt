@@ -1,0 +1,6 @@
+h3
+geopandas
+h3pandas
+minio
+tensorflow==2.6.2
+spektral

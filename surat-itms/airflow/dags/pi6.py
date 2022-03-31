@@ -29,7 +29,7 @@ with DAG(
     default_args=default_args,
     description='Surat ITMS data',
     schedule_interval="0 9 * * SUN",
-    start_date=datetime(2021, 12, 9),
+    start_date=datetime(2022, 2, 24),
     tags=['surat','hex'],
 ) as dag:
-    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/surat_hex_2.py", task_id="surat_hex", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)
+    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/surat_hex.py", task_id="surat_hex", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)

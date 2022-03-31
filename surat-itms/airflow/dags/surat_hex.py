@@ -27,9 +27,8 @@ kudu_eta_df=spark.read.format('org.apache.kudu.spark.kudu').option('kudu.master'
 kudu_eta_df.createOrReplaceTempView("eta_table")
 eta_query = "SELECT * FROM eta_table WHERE observationDateTime BETWEEN {} AND {} ORDER BY observationDateTime".format(live_start_time,live_end_time)
 eta = spark.sql(eta_query)
+eta = eta.select('primary_key', 'trip_id','route_id', 'vehicle_label', 'license_plate', 'observationDateTime', f.col('latitude').alias("eta_longitude"), f.col('longitude').alias("eta_latitude"))
 eta = eta.dropna()
-eta = eta.select('primary_key', 'trip_id','route_id','actual_trip_start_time', 'last_stop_arrival_time', 'vehicle_label', 'license_plate', 'observationDateTime', f.col('latitude').alias("eta_longitude"), f.col('longitude').alias("eta_latitude"))
-
 
 def geoToH3(latitude,longitude):
     resolution = 8

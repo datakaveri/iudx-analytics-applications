@@ -43,7 +43,7 @@ with DAG(
     default_args=default_args,
     description='Surat ITMS data',
     schedule_interval="50 00 * * *",
-    start_date=datetime(2021, 12, 10),
+    start_date=datetime(2022, 2, 24),
     tags=['surat','itms','sp1','schedules'],
 ) as dag:
-    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/push_scheduled_stops_2.py", task_id="push_scheduled_stops", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)
+    submit_job = SparkSubmitOperator(application="/opt/airflow/dags/push_scheduled_stops.py", task_id="push_scheduled_stops", packages="org.apache.kudu:kudu-spark3_2.12:1.15.0", conn_id="spark_service", executor_cores=1, total_executor_cores=2)

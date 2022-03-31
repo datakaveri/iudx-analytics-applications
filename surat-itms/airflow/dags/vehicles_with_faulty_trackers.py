@@ -18,10 +18,9 @@ start_time = now.strftime("'%Y-%m-%d 00:00:00'")
 spark = SparkSession.builder.master('spark://spark:7077').appName('kudu_read').getOrCreate()
 completed_trips_df=spark.read.format('org.apache.kudu.spark.kudu').option('kudu.master',"kudu-master:7051").option('kudu.table',"trip_status").load()
 completed_trips_df.createOrReplaceTempView("completed_trips_table")
-completed_trips_query = "SELECT * FROM completed_trips_table where last_stop_arrival_time >= {} AND status=='COMPLETED'".format(start_time)
+completed_trips_query = "SELECT * FROM completed_trips_table where observe_time >= {} AND status=='COMPLETED'".format(start_time)
 
 completed_trips = spark.sql(completed_trips_query)
-completed_trips = completed_trips.dropna()
 completed_trips = completed_trips.select("trip_id")
 
 IST = pytz.timezone('Asia/Kolkata')
@@ -36,7 +35,6 @@ kudu_eta_df.createOrReplaceTempView("eta_table")
 eta_query = "SELECT * FROM eta_table WHERE observationDateTime BETWEEN {} AND {} ORDER BY observationDateTime".format(start_time,end_time)
 eta = spark.sql(eta_query)
 
-eta = eta.dropna()
 eta = eta.select('primary_key', 'trip_id', 'id', 'route_id', 'trip_direction', "vehicle_label", 'actual_trip_start_time', 'last_stop_arrival_time', 'vehicle_label', 'license_plate', 'last_stop_id', 'speed', 'observationDateTime', 'trip_delay', 'location_type', f.col('latitude').alias("eta_longitude"), f.col('longitude').alias("eta_latitude"))
 
 eta=eta.withColumn("actual_trip_start_time", f.unix_timestamp(f.col('actual_trip_start_time')))

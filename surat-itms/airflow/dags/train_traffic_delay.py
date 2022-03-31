@@ -31,12 +31,10 @@ kudu_eta_df.createOrReplaceTempView("eta_table")
 eta_query = "SELECT * FROM eta_table WHERE observationDateTime BETWEEN {} AND {} ORDER BY observationDateTime".format(start_time,end_time)
 eta = spark.sql(eta_query)
 
+eta = eta.select('primary_key', 'trip_id', 'id', 'route_id', 'trip_direction', 'vehicle_label', 'license_plate', 'last_stop_id', 'speed', 'observationDateTime', 'trip_delay', 'location_type', f.col('latitude').alias("eta_longitude"), f.col('longitude').alias("eta_latitude"))
+
 eta = eta.dropna()
-eta = eta.select('primary_key', 'trip_id', 'id', 'route_id', 'trip_direction', 'actual_trip_start_time', 'last_stop_arrival_time', 'vehicle_label', 'license_plate', 'last_stop_id', 'speed', 'observationDateTime', 'trip_delay', 'location_type', f.col('latitude').alias("eta_longitude"), f.col('longitude').alias("eta_latitude"))
 
-
-eta=eta.withColumn("actual_trip_start_time", f.unix_timestamp(f.col('actual_trip_start_time')))
-eta=eta.withColumn("last_stop_arrival_time", f.unix_timestamp(f.col('last_stop_arrival_time')))
 eta=eta.withColumn("observationDateTime", f.unix_timestamp(f.col('observationDateTime')))
 eta = eta.withColumn("trip_id", eta["trip_id"].cast('int'))
 eta = eta.withColumn("last_stop_id", eta["last_stop_id"].cast('int'))

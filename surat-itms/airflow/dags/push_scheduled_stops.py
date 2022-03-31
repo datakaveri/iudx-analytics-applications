@@ -20,11 +20,6 @@ kudu_sch_df.createOrReplaceTempView("sch_table")
 sch_query = "SELECT * FROM sch_table WHERE arrival_time >= {} AND arrival_time < {} ORDER BY arrival_time".format(start_date,end_date)
 sch = spark.sql(sch_query)
 
-sch = sch.dropna()
-
-sch = sch.withColumn('arrival_time', f.col('arrival_time') + f.expr('INTERVAL 5 HOURS 30 MINUTES'))\
-    .withColumn('departure_time', f.col('departure_time') + f.expr('INTERVAL 5 HOURS 30 MINUTES'))
-
 """# Processing columns"""
 
 sch=sch.withColumn("arrival_time", f.unix_timestamp(f.col('arrival_time')))
